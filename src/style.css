@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: 'Rubik', sans-serif;
+}
+:root{
+  --primary-color: #176B87;
+  --secondary-color: #86B6F6;
+  --tersiary-color: #B4D4FF;
+  --accent-color: #EEF5FF;
+  --black: #333;
+  --white: var(--accent-color);
+}

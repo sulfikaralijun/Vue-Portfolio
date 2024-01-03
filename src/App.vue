@@ -9,4 +9,8 @@ import NavBarVue from './components/NavBar.vue';
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.container {
+  width: 100%;
+}
+</style>
