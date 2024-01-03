@@ -14,12 +14,10 @@ const navItems = ref([
 
 <template>
   <header>
-    <div class="logo">
-      <a href="/">
+      <a href="/" class="logo">
         <img :src="logo" alt="Logo">
+        <h1>Sulfikar Alijun</h1>
       </a>
-      <h1>Sulfikar Alijun</h1>
-    </div>
 
     <nav>
       <a :class="navItem.isActive ? 'active' : ''" v-for="(navItem, index) in navItems" :key="index" :href="navItem.link">{{ navItem.text }}</a>
@@ -45,6 +43,7 @@ header .logo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  text-decoration: none;
 }
 .logo img {
   width: 2.5rem;
@@ -54,6 +53,10 @@ header .logo {
 .logo h1 {
   font-size: 1.3rem;
   color: var(--black);
+}
+.logo h1:hover {
+  text-decoration: underline;
+  color: var(--primary-color);
 }
 
 header nav {
@@ -68,10 +71,11 @@ nav a {
   color: var(--black);
   padding: 10px 14px;
   border-radius: 20px;
-  transition: background .5s ease;
+  transition: background color .5s ease;
 }
 nav a.active,
 nav a:hover {
   background-color: var(--tersiary-color);
+  color: var(--primary-color);
 }
 </style>
