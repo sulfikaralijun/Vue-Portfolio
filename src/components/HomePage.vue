@@ -32,6 +32,9 @@ section#home {
 
 section#home .text-section {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 .text-section strong {
   font-size: 1.2rem;
@@ -39,8 +42,6 @@ section#home .text-section {
   display: block;
 }
 .text-section h1 {
-  position: relative;
-  top: 8px;
   font-size: 2.5rem;
   display: inline-block;
   background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--primary-color)), var(--secondary-color);
@@ -62,11 +63,9 @@ section#home .text-section {
 }
 .text-section .desc {
   position: relative;
-  top: 10px;
 }
 
 .social-media {
   position: relative;
-  top: 25px;
 }
 </style>
