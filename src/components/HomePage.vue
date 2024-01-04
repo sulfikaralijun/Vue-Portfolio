@@ -33,6 +33,15 @@ section#home .text-section {
 .text-section strong {
   font-size: 1.2rem;
   font-weight: 500;
+  display: block;
+}
+.text-section h1 {
+  font-size: 2.5rem;
+  display: inline-block;
+  background: linear-gradient(to right, #176B87, #86B6F6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
 section#home .img-section {
