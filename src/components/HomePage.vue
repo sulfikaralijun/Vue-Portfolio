@@ -1,5 +1,5 @@
 <script setup>
-
+import banner from '../assets/Logo.png'
 </script>
 
 <template>
@@ -10,6 +10,9 @@
       <p class="desc">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum dolorum accusantium. Odit, laborum facere? Nostrum est architecto ducimus nam?
       </p>
+    </div>
+    <div class="img-section">
+      <img :src="banner" alt="banner">
     </div>
   </section>
 </template>
