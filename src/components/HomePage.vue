@@ -24,5 +24,18 @@ section#home {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0 80px;
+}
+
+section#home .text-section {
+  width: 50%;
+}
+
+section#home .img-section {
+  width: 50%;
+}
+.img-section{
+  display: grid;
+  place-items: center;
 }
 </style>
