@@ -67,6 +67,6 @@ section#home .text-section {
 
 .social-media {
   position: relative;
-  top: 20px;
+  top: 25px;
 }
 </style>
