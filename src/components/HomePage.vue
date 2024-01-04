@@ -9,4 +9,7 @@
 </template>
 
 <style scoped>
+section#home {
+  background-color: aqua;
+}
 </style>

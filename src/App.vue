@@ -1,4 +1,5 @@
 <script setup>
+import HomePage from './components/HomePage.vue';
 import NavBarVue from './components/NavBar.vue';
 
 </script>
@@ -6,6 +7,7 @@ import NavBarVue from './components/NavBar.vue';
 <template>
   <div class="container">
     <NavBarVue/>
+    <HomePage/>
   </div>
 </template>
 
