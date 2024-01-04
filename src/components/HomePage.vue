@@ -10,6 +10,7 @@
 
 <style scoped>
 section#home {
-  background-color: aqua;
+  width: 100%;
+  min-height: 100vh;
 }
 </style>
