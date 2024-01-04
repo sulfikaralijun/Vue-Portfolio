@@ -17,7 +17,7 @@ import banner from '/src/assets/Logo.png';
 .img-section img {
   width: 400px;
   border-radius: 30% 70% 70% 30% / 30% 35% 65% 70% ;
-  animation: rotate 5s ease-in-out infinite;
+  animation: rotate 8s ease-in-out infinite;
 }
 @keyframes rotate {
   0%,100% {

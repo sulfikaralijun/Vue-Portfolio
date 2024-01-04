@@ -1,7 +1,7 @@
 <script setup>
 import BannerIcon from './child/BannerIcon.vue';
 import SocialMedia from './child/SocialMedia.vue'
-
+import ButtonVue from './child/ButtonVue.vue';
 </script>
 
 <template>
@@ -15,6 +15,7 @@ import SocialMedia from './child/SocialMedia.vue'
       <div class="social-media">
         <SocialMedia/>
       </div>
+      <ButtonVue text="Explore" link="#about"/>
     </div>
     <BannerIcon/>
   </section>

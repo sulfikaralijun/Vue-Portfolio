@@ -4,12 +4,12 @@ import { ref } from 'vue';
 import logo from '../assets/Logo.png';
 
 const navItems = ref([
-  {text: "Home", link: '/', isActive: false},
-  {text: "About", link: '/about', isActive: false},
-  {text: "Skills", link: '/skills', isActive: false},
-  {text: "Portfolio", link: '/portfolio', isActive: false},
-  {text: "Certificate", link: '/certificate', isActive: false},
-  {text: "Contact", link: '/contact', isActive: true},
+  {text: "Home", link: '#home', isActive: false},
+  {text: "About", link: '#about', isActive: false},
+  {text: "Skills", link: '#skills', isActive: false},
+  {text: "Portfolio", link: '#portfolio', isActive: false},
+  {text: "Certificate", link: '#certificate', isActive: false},
+  {text: "Contact", link: '#contact', isActive: true},
 ])
 </script>
 
