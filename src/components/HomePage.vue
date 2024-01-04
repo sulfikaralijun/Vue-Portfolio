@@ -45,6 +45,17 @@ section#home .text-section {
   background-clip: text;
   color: transparent;
   font-weight: 600;
+  animation: text 2s ease-in-out infinite;
+}
+
+@keyframes text {
+  0% {
+    transform: translateY(0);
+  }50% {
+    transform: translateY(-10px);
+  }100% {
+    transform: translateY(0);
+  }
 }
 .text-section .desc {
   position: relative;

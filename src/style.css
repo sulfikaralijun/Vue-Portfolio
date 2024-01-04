@@ -5,6 +5,7 @@
 }
 body {
   font-family: 'Rubik', sans-serif;
+  background-color: var(--accent-color);
 }
 :root{
   --primary-color: #176B87;
