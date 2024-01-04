@@ -1,5 +1,6 @@
 <script setup>
 import BannerIcon from './child/BannerIcon.vue';
+import SocialMedia from './child/SocialMedia.vue'
 
 </script>
 
@@ -12,10 +13,7 @@ import BannerIcon from './child/BannerIcon.vue';
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum dolorum accusantium. Odit, laborum facere? Nostrum est architecto ducimus nam?
       </p>
       <div class="social-media">
-        <font-awesome-icon :icon="['fab', 'github']" />
-        <font-awesome-icon :icon="['fab', 'linkedin']" />
-        <font-awesome-icon :icon="['fab', 'instagram']" />
-        <font-awesome-icon :icon="['fab', 'facebook']" />
+        <SocialMedia/>
       </div>
     </div>
     <BannerIcon/>
@@ -65,5 +63,10 @@ section#home .text-section {
 .text-section .desc {
   position: relative;
   top: 10px;
+}
+
+.social-media {
+  position: relative;
+  top: 20px;
 }
 </style>
