@@ -37,7 +37,7 @@ section#home .text-section {
 }
 .text-section h1 {
   position: relative;
-  top: 5px;
+  top: 8px;
   font-size: 2.5rem;
   display: inline-block;
   background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--primary-color)), var(--secondary-color);
@@ -67,4 +67,9 @@ section#home .img-section {
   display: grid;
   place-items: center;
 }
+.img-section img {
+  width: 400px;
+  border-radius: 30% 70% 70% 30% / 30% 35% 65% 70% ;
+}
+
 </style>
