@@ -36,12 +36,19 @@ section#home .text-section {
   display: block;
 }
 .text-section h1 {
+  position: relative;
+  top: 5px;
   font-size: 2.5rem;
   display: inline-block;
-  background: linear-gradient(to right, #176B87, #86B6F6);
+  background: linear-gradient(45deg, var(--primary-color), var(--secondary-color), var(--primary-color)), var(--secondary-color);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  font-weight: 600;
+}
+.text-section .desc {
+  position: relative;
+  top: 10px;
 }
 
 section#home .img-section {
