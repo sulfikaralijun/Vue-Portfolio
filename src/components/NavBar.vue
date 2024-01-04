@@ -76,5 +76,6 @@ nav a {
 nav a.active,
 nav a:hover {
   background-color: var(--tersiary-color);
+  color: var(--primary-color)
 }
 </style>
