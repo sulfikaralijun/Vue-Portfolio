@@ -30,11 +30,13 @@ section#home {
 section#home .text-section {
   width: 50%;
 }
+.text-section strong {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
 
 section#home .img-section {
   width: 50%;
-}
-.img-section{
   display: grid;
   place-items: center;
 }
