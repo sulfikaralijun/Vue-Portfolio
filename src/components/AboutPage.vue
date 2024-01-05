@@ -4,12 +4,14 @@
     <div class="about-text">
       <h3>About</h3>
       <p>Hello, I'm Sulfikar Alijun, a beginner front-end developer with skills in HTML, CSS, and JavaScript. I'm passionate about creating captivating and responsive user experiences. With a strong understanding of UI/UX design, I'm ready to collaborate in a team to deliver visually appealing and functional websites.</p>
+
+      <ButtonVue text="Download My CV"/>
     </div>
   </section>
 </template>
 <script setup>
 import BannerIconVue from './child/BannerIcon.vue';
-
+import ButtonVue from './child/ButtonVue.vue';
 </script>
 <style scoped>
 section#about {
@@ -21,6 +23,9 @@ section#about {
 }
 .about-text {
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
   /* background-color: blue; */
 }
 .about-text h3 {
@@ -32,7 +37,7 @@ section#about {
 }
 .about-text p {
   width: 60%;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--black);
 }
 </style>
