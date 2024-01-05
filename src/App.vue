@@ -2,6 +2,7 @@
 import AboutPageVue from './components/AboutPage.vue';
 import HomePage from './components/HomePage.vue';
 import NavBarVue from './components/NavBar.vue';
+import SkillsPageVue from './components/SkillsPage.vue';
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import NavBarVue from './components/NavBar.vue';
     <NavBarVue style="position: fixed; top: 0;, left: 0;"/>
     <HomePage/>
     <AboutPageVue/>
+    <SkillsPageVue/>
   </div>
 </template>
 
