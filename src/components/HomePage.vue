@@ -10,7 +10,7 @@ import ButtonVue from './child/ButtonVue.vue';
       <strong>Hi there I'm </strong>
       <h1>Sulfikar Alijun</h1>
       <p class="desc">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsum dolorum accusantium. Odit, laborum facere? Nostrum est architecto ducimus nam?
+        I'm an beginner front-end developer creating engaging user experiences with HTML, CSS, and JavaScript. Check out my portfolio for the projects I've worked on.
       </p>
       <div class="social-media">
         <SocialMedia/>
