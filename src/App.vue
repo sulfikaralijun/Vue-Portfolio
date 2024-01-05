@@ -6,7 +6,7 @@ import NavBarVue from './components/NavBar.vue';
 
 <template>
   <div class="container">
-    <NavBarVue/>
+    <NavBarVue style="position: fixed; top: 0;, left: 0;"/>
     <HomePage/>
     <AboutPageVue/>
   </div>
