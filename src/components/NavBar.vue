@@ -36,6 +36,7 @@ header{
   /* background-color: aliceblue; */
   background: transparent;
   backdrop-filter: blur(20px);
+  z-index: 99;
 }
 header .logo {
   display: flex;
