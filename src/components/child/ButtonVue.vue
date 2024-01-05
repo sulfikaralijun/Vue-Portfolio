@@ -9,27 +9,31 @@ defineProps({
 </script>
 
 <template>
-  <a :href="link">{{ text }}</a>
+  <div class="btn">
+    <a :href="link">{{ text }}</a>
+  </div>
 </template>
 
 <style scoped>
-a {
+.btn {
+  top: 20px;
   position: relative;
-  padding: 10px 0;
+}
+a {
+  padding: 10px 20px;
   text-decoration: none;
   font-size: 1.1rem;
   border-radius: 20px;
+  display: inline !important;
   color: var(--black);
   outline: 2px solid var(--primary-color);
-  text-align: center;
-  display: inline;
-  width: 100px;
-  top: 20px;
-  transition: all .5s ease;
+  transition: scale .5s ease;
+  border: none;
   /* background-color: aqua; */
 }
 a:hover {
   scale: 1.05;
   box-shadow: 0 0 10px var(--primary-color), 0 0 20px var(--secondary-color);
+  outline: none;
 }
 </style>
