@@ -25,8 +25,7 @@
   transition: all .5s ease;
 }
 svg:hover {
-  background: var(--primary-color);
-  color: #00FFF0;
-  scale: 1.2;
+  box-shadow: 0 0 10px var(--primary-color);
+  scale: 1.1;
 }
 </style>
