@@ -15,7 +15,7 @@ import ButtonVue from './child/ButtonVue.vue';
       <div class="social-media">
         <SocialMedia/>
       </div>
-      <ButtonVue text="Explore" link="#about"/>
+      <ButtonVue text="Explore" link="#about" style="display: inline;"/>
     </div>
     <BannerIcon/>
   </section>
