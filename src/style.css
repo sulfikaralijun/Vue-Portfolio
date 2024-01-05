@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Rubik', sans-serif;
   background-color: var(--accent-color);
+  scroll-behavior: smooth;
 }
 #app {
   width: 100%;
