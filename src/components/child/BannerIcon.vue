@@ -1,10 +1,16 @@
 <script setup>
 import banner from '/src/assets/Logo.png';
+defineProps({
+  width: {
+    type: String,
+    default: '400px'
+  }
+})
 </script>
 
 <template>
 	<div class="img-section">
-		<img :src="banner" alt="banner" />
+		<img :src="banner" alt="banner" :width="width"/>
 	</div>
 </template>
 
@@ -15,7 +21,6 @@ import banner from '/src/assets/Logo.png';
   place-items: center;
 }
 .img-section img {
-  width: 400px;
   border-radius: 30% 70% 70% 30% / 30% 35% 65% 70% ;
   animation: rotate 8s ease-in-out infinite;
 }
