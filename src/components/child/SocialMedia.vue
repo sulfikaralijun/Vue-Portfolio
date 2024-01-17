@@ -13,7 +13,6 @@
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  /* background: blue; */
 }
 .social-media-items svg {
   padding: 5px;
