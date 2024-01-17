@@ -6,7 +6,7 @@ import SkillsPageVue from './components/SkillsPage.vue';
 </script>
 
 <template>
-    <NavBarVue />
+    <NavBarVue/>
     <HomePage/>
     <AboutPageVue/>
     <SkillsPageVue/>

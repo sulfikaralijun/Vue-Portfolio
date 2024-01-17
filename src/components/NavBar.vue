@@ -28,7 +28,7 @@ const navItems = ref([
 
 <style scoped>
 header{
-  position: fixed;
+  position: sticky;
   top: 0;
   left: 0;
   display: flex;
