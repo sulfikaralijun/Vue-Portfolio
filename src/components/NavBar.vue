@@ -36,7 +36,6 @@ header{
   justify-content: space-between;
   width: 100%;
   padding: 20px 80px;
-  /* background-color: aliceblue; */
   background: transparent;
   backdrop-filter: blur(20px);
   z-index: 99;

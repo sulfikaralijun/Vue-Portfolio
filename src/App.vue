@@ -13,5 +13,4 @@ import SkillsPageVue from './components/SkillsPage.vue';
 </template>
 
 <style scoped>
-
 </style>
