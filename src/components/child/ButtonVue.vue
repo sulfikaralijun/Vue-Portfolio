@@ -27,7 +27,7 @@ a {
   display: inline !important;
   color: var(--black);
   outline: 2px solid var(--primary-color);
-  transition: scale .5s ease;
+  transition: scale .8s ease;
   border: none;
   /* background-color: aqua; */
 }
