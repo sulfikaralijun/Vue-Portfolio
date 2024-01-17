@@ -16,7 +16,6 @@
 }
 .social-media-items svg {
   padding: 5px;
-  /* background: var(--secondary-color); */
   border-radius: 50%;
   border: 2px solid var(--secondary-color);
   color: var(--primary-color);
