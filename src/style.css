@@ -12,8 +12,6 @@ body {
 }
 #app {
   max-width: 1236px;
-  background-color: aqua;
-  /* width: 1236px; */
 }
 :root{
   --primary-color: #176B87;
