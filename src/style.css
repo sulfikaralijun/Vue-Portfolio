@@ -11,7 +11,8 @@ body {
   background-color: var(--accent-color);
 }
 #app {
-  width: 100%;
+  max-width: 1236px;
+  /* width: 1236px; */
 }
 :root{
   --primary-color: #176B87;
