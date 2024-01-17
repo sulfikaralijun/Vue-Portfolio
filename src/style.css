@@ -12,6 +12,7 @@ body {
 }
 #app {
   max-width: 1236px;
+  position: relative;
 }
 :root{
   --primary-color: #176B87;

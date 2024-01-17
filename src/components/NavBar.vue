@@ -28,6 +28,9 @@ const navItems = ref([
 
 <style scoped>
 header{
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
