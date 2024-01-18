@@ -79,4 +79,10 @@ nav a:hover {
   background-color: var(--tersiary-color);
   color: var(--primary-color)
 }
+
+@media only screen and (max-width: 1080) {
+  header nav {
+    display: none;
+  }
+}
 </style>
