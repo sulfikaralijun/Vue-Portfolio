@@ -11,6 +11,17 @@ const navItems = ref([
   {text: "Certificate", link: '#certificate', isActive: false},
   {text: "Contact", link: '#contact', isActive: true},
 ])
+
+const mediaQuery = ref(false)
+window.addEventListener('resize', () => {
+  console.log(window.innerWidth);
+  if(window.innerWidth <= 1080) {
+    mediaQuery.value = true;
+  }else {
+    mediaQuery.value = false;
+  }
+})
+// console.log(window.innerHeight);
 </script>
 
 <template>
@@ -20,7 +31,7 @@ const navItems = ref([
         <h1>Sulfikar Alijun</h1>
       </a>
 
-    <nav>
+    <nav v-if="!mediaQuery">
       <a :class="navItem.isActive ? 'active' : ''" v-for="(navItem, index) in navItems" :key="index" :href="navItem.link">{{ navItem.text }}</a>
     </nav>
   </header>
