@@ -23,7 +23,7 @@ import ButtonVue from './child/ButtonVue.vue';
 
 <style scoped>
 section#home {
-  background-color: lightblue;
+  /* background-color: lightblue; */
   width: 100%;
   display: flex;
   align-items: center;

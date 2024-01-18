@@ -16,10 +16,11 @@ import ButtonVue from './child/ButtonVue.vue';
 <style scoped>
 section#about {
   width: 100%;
-  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 100px 0;
+  /* background-color: aqua; */
 }
 .about-text {
   width: 50%;
