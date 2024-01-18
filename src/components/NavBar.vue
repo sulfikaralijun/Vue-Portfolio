@@ -1,8 +1,10 @@
 <script setup>
 
+// import
 import { ref } from 'vue';
 import logo from '../assets/Logo.png';
 
+// nav
 const navItems = ref([
   {text: "Home", link: '#app', isActive: false},
   {text: "About", link: '#about', isActive: false},
@@ -12,9 +14,13 @@ const navItems = ref([
   {text: "Contact", link: '#contact', isActive: true},
 ])
 
+// responsive
 const mediaQuery = ref(false)
 
+// media query
 window.addEventListener('resize', () => {
+
+  // check media query
   if(window.innerWidth <= 1080) {
     mediaQuery.value = true;
   }else {
