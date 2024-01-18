@@ -8,9 +8,7 @@
 	background-attachment: fixed;
 }
 
-::-webkit-scrollbar-thumb {
-	background-color: var(--secondary-color);
-}
+
 
 html {
 	scroll-behavior: smooth;
