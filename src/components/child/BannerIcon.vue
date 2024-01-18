@@ -3,7 +3,7 @@ import banner from '/src/assets/Logo.png';
 defineProps({
   width: {
     type: String,
-    default: '400px'
+    default: '350px'
   }
 })
 </script>
