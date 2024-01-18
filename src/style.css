@@ -4,12 +4,6 @@
 	box-sizing: border-box;
 }
 
-::-webkit-scrollbar {
-	background-attachment: fixed;
-}
-
-
-
 html {
 	scroll-behavior: smooth;
 }
