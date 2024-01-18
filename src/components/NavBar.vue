@@ -4,7 +4,7 @@ import { ref } from 'vue';
 import logo from '../assets/Logo.png';
 
 const navItems = ref([
-  {text: "Home", link: '#home', isActive: false},
+  {text: "Home", link: '#app', isActive: false},
   {text: "About", link: '#about', isActive: false},
   {text: "Skills", link: '#skills', isActive: false},
   {text: "Portfolio", link: '#portfolio', isActive: false},
@@ -28,7 +28,9 @@ const navItems = ref([
 
 <style scoped>
 header{
-  position: relative;
+  position: sticky;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
