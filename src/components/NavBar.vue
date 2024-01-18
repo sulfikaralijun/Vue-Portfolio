@@ -21,7 +21,6 @@ window.addEventListener('resize', () => {
     mediaQuery.value = false;
   }
 })
-// console.log(window.innerHeight);
 </script>
 
 <template>
