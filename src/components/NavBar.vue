@@ -13,6 +13,7 @@ const navItems = ref([
 ])
 
 const mediaQuery = ref(false)
+
 window.addEventListener('resize', () => {
   if(window.innerWidth <= 1080) {
     mediaQuery.value = true;
