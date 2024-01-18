@@ -23,13 +23,12 @@ import ButtonVue from './child/ButtonVue.vue';
 
 <style scoped>
 section#home {
-  margin-top: 20px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  padding: 0 80px;
+  padding: 75px 80px;
 }
 
 section#home .text-section {
